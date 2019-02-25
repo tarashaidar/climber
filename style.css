@@ -17,7 +17,7 @@ p, span, div,i,img,a {
 }
 
 .row{
-	background-image: url(img/Background.png);
+	background-image: url(img/Background_ukog73_c_scale,w_1048.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 63rem;
@@ -61,7 +61,8 @@ p, span, div,i,img,a {
 	background: #31607e;
 	border-radius: 9rem;
 	font-size: 1.5rem;
-	padding: 1rem;
+	padding: 0.8rem;
+	margin-right: 1rem;
 }
 
 .sign{
@@ -144,9 +145,14 @@ img{
 
 
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 900px){
 	.menu_left{
 		display: none;
+	}
+
+	.menu{
+		width: 60%;
+		justify-content: center;
 	}
 }
 
@@ -165,7 +171,7 @@ img{
 	}
 	
 	.row_mobile{
-		background-image: url(img/Background.png);
+		background-image: url(img/Background_ukog73_c_scale,w_550.png);
 		background-repeat: no-repeat;
 		background-size: cover;
 		height: 63rem;
